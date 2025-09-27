@@ -17,15 +17,15 @@ During the teacher's training the gradient works only with logits 0–9, but bec
 Here is how exactly the teacher's training went:
 
 ```
-Teacher Epoch 1: 100%|￿￿￿￿￿￿￿￿￿￿| 235/235 [00:03<00:00, 67.20it/s, loss=0.1600]
+Teacher Epoch 1: 100%|██████████| 235/235 [00:03<00:00, 67.20it/s, loss=0.1600]
 Teacher Epoch 1: Avg Loss 0.4973, Test Acc 0.9298
-Teacher Epoch 2: 100%|￿￿￿￿￿￿￿￿￿￿| 235/235 [00:05<00:00, 42.82it/s, loss=0.1474]
+Teacher Epoch 2: 100%|██████████| 235/235 [00:05<00:00, 42.82it/s, loss=0.1474]
 Teacher Epoch 2: Avg Loss 0.2060, Test Acc 0.9521
-Teacher Epoch 3: 100%|￿￿￿￿￿￿￿￿￿￿| 235/235 [00:03<00:00, 67.38it/s, loss=0.1148]
+Teacher Epoch 3: 100%|██████████| 235/235 [00:03<00:00, 67.38it/s, loss=0.1148]
 Teacher Epoch 3: Avg Loss 0.1483, Test Acc 0.9611
-Teacher Epoch 4: 100%|￿￿￿￿￿￿￿￿￿￿| 235/235 [00:03<00:00, 67.91it/s, loss=0.0683]
+Teacher Epoch 4: 100%|██████████| 235/235 [00:03<00:00, 67.91it/s, loss=0.0683]
 Teacher Epoch 4: Avg Loss 0.1168, Test Acc 0.9640
-Teacher Epoch 5: 100%|￿￿￿￿￿￿￿￿￿￿| 235/235 [00:05<00:00, 45.82it/s, loss=0.1047]
+Teacher Epoch 5: 100%|██████████| 235/235 [00:05<00:00, 45.82it/s, loss=0.1047]
 Teacher Epoch 5: Avg Loss 0.0960, Test Acc 0.9696
 ```
 
@@ -36,15 +36,15 @@ Now moving on to the student. That's an MLP with the same architecture as the te
 And that's the student's learning progress:
 
 ```
-Student Epoch 1: 100%|￿￿￿￿￿￿￿￿￿￿| 235/235 [00:04<00:00, 48.28it/s, kl=0.0147]
+Student Epoch 1: 100%|██████████| 235/235 [00:04<00:00, 48.28it/s, kl=0.0147]
 Student Epoch 1: Avg KL 0.0167, Test Acc 0.5899
-Student Epoch 2: 100%|￿￿￿￿￿￿￿￿￿￿| 235/235 [00:06<00:00, 33.62it/s, kl=0.0085]
+Student Epoch 2: 100%|██████████| 235/235 [00:06<00:00, 33.62it/s, kl=0.0085]
 Student Epoch 2: Avg KL 0.0078, Test Acc 0.7303
-Student Epoch 3: 100%|￿￿￿￿￿￿￿￿￿￿| 235/235 [00:04<00:00, 47.53it/s, kl=0.0051]
+Student Epoch 3: 100%|██████████| 235/235 [00:04<00:00, 47.53it/s, kl=0.0051]
 Student Epoch 3: Avg KL 0.0053, Test Acc 0.7892
-Student Epoch 4: 100%|￿￿￿￿￿￿￿￿￿￿| 235/235 [00:06<00:00, 38.33it/s, kl=0.0045]
+Student Epoch 4: 100%|██████████| 235/235 [00:06<00:00, 38.33it/s, kl=0.0045]
 Student Epoch 4: Avg KL 0.0045, Test Acc 0.8085
-Student Epoch 5: 100%|￿￿￿￿￿￿￿￿￿￿| 235/235 [00:05<00:00, 42.45it/s, kl=0.0041]
+Student Epoch 5: 100%|██████████| 235/235 [00:05<00:00, 42.45it/s, kl=0.0041]
 Student Epoch 5: Avg KL 0.0043, Test Acc 0.8358
 ```
 
